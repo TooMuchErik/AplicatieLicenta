@@ -1,0 +1,6 @@
+<div>
+  <h1>Text Reverser</h1>
+  <input [(ngModel)]="inputText" placeholder="Enter text" />
+  <button (click)="reverse()">Reverse Text</button>
+  <p *ngIf="reversedText">Reversed Text: {{ reversedText }}</p>
+</div>
